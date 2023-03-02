@@ -5,13 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "purgecss --css ./nina-carducci.github.io_files/bootstrap.min.css --content index.html --output ./nina-carducci.github.io_files/dist/"
+    "build": "purgecss --css ./nina-carducci.github.io_files/css/bootstrap.css --content ./nina-carducci.github.io_optimized.html --output ./nina-carducci.github.io_files/purgecss_build/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "purgecss": "^5.0.0",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "purgecss": "^5.0.0"
   }
 }
