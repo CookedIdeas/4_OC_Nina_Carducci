@@ -1,0 +1,33 @@
+footer {
+  padding: 3rem 1rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+footer > div {
+  width: 30%;
+}
+
+@media (max-width: 650px) {
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  footer > div {
+    width: 70%;
+    text-align: center;
+  }
+}
+
+.footer__title {
+  font-size: 20px;
+}
+
+.footer__text {
+  font-size: 15px;
+  margin: 0;
+}
